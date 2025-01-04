@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forest Fire Prediction</title>
+</head>
+<body>
+
+    <div class="main">
+        
+        <div class="header">
+            <h1>ALGERIAN FOREST FIRE PREDICTION</h1>
+        </div>
+        <h2>Project by Paulami Maitra
+        	<div class="contact-details" >
+				<a href="https://github.com/paul0070-23" rel="noopener noreferrer"
+					target="_blank"> GitHub
+				</a>
+                <a href="https://www.linkedin.com/in/paulami-maitra/" rel="noopener noreferrer"
+                   target="_blank"
+				> LinkedIn
+				</a>
+			</div>
+        </h2>
+        
+        <div class="container">
+            <h3>Fire Weather Index Prediction (Regression Model) </h3>
+            
+            <div class="form-submit">
+                <input type="submit" id="submitR" class="submit" value="Predict" onclick="redirectToPredict()" />
+            </div>
+                </div>
+                
+            </form>
+        </div>
+
+    </div>
+    <script type="text/javascript">
+        function redirectToPredict() {
+            // Define the base URL (you can modify this as per your needs)
+            const baseUrl = window.location.origin;  // e.g., http://localhost:5000 or your server's URL
+            const dynamicPath = '/predictdata';          // Dynamic part of the URL
+
+            // Redirect to the new URL
+            window.location.href = baseUrl + dynamicPath;
+        }
+    </script>
+</body>
+</html>
