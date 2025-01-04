@@ -1,14 +1,7 @@
 <h1 align="center" id="title">🌳🔥Algerian Forest Fire Prediction</h1>
 
-<p align="center"><img src="https://socialify.git.ci/paul0070-23/Forest_Fire_Prediction/image?name=1&amp;owner=1&amp;pattern=Charlie%20Brown&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
 
 <p id="description">This project predicts the Fire Weather Index (FWI) a key indicator used to estimate forest fire risks. Multiple machine learning models were explored with the Random Forest Regressor achieving the best performance with a 97.75% accuracy score.</p>
-<br>
-<h2>🚀 Demo</h2>
-
-
-[https://forest-fire-prediction-viky.onrender.com](https://forest-fire-prediction-viky.onrender.com)
-<br>
 <br>
 
 <h2>🔥Introduction</h2>
@@ -83,9 +76,7 @@ The following machine learning models were implemented:
 
 <br>
 
-<h2>🚀Deployment</h2>
 
-<p>The model was successfully deployed on Render. You can view and interact with the live deployment <a href="https://forest-fire-prediction-viky.onrender.com">here</a>. The deployment allows users to input meteorological data and receive the predicted Fire Weather Index (FWI) in real-time.</p>
 
 <br>
 <h2>✅ Conclusion</h2>
